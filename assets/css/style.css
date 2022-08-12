@@ -5,53 +5,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: 'git';
-  src: url('assets/css/fontello/font/git.eot?48142148');
-  src: url('assets/css/fontello/font/git.eot?48142148#iefix') format('embedded-opentype'),
-       url('assets/css/fontello/font/git.woff?48142148') format('woff'),
-       url('assets/css/fontello/font/git.ttf?48142148') format('truetype'),
-       url('assets/css/fontello/font/git.svg?48142148#git') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-:root {
-  --clr-foreground: hsl(0 0% 0%);
-  --clr-background: hsl(0 0% 100%);
-  --clr-white: 0 0% 100%;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --clr-background: hsl(0 0% 0%);
-    --clr-foreground: hsl(0 0% 100%);
-    --clr-white: 0 0% 100%;
-  }
-}
-.light-theme {
-  --clr-foreground: hsl(0 0% 0%);
-  --clr-background: hsl(0, 0%, 100%);
-  --primary-color: 242, 79%, 77%;
-  --secondary-color: 224, 20%, 59%;
-  --primary-font-color: 214, 11%, 12%;
-  --secondary-font-color: 0, 0%, 45%;
-  --hero-bg-color: 38, 22%, 90%;
-  --bg-color: 0, 40%, 96%;
-  --clr-white: 0 0% 100%;
-}
-
-.dark-theme {
-  --clr-background: hsl(0 0% 0%);
-  --clr-foreground: hsl(0 0% 100%);
-  --primary-color: 268, 60%, 52%;
-  --secondary-color: 224, 27%, 45%;
-  --primary-font-color: 0, 100%, 100%;
-  --secondary-font-color: 0, 0%, 45%;
-  --hero-bg-color: 220, 23%, 5%;
-  --bg-color: 215, 21%, 11%;
-  --clr-white: 0 0% 100%;
-}
-
 body {
   font-family: sans-serif;
   background-color: hsla(var(--bg-color), 1);
@@ -61,24 +14,70 @@ body {
   font-size: calc(1rem + 0.25vh);
   min-height: 100vh;
 }
+/* Theme presets */
 
-/* Nav bar */
+.light-theme {
+  --clr-foreground: 255 100% 0%;
+  --clr-background: 0, 0%, 100%;
+  --clr-white: 0 0% 100%;
+  --primary-color: 242, 79%, 77%;
+  --secondary-color: 224, 20%, 59%;
+  --primary-font-color: 214, 11%, 12%;
+  --secondary-font-color: 0, 0%, 45%;
+  --hero-bg-color: 38, 22%, 90%;
+  --bg-color: 0, 40%, 96%;
+}
+
+.dark-theme {
+  --clr-foreground: 0 0% 100%;
+  --clr-background: 0 0% 0%;
+  --clr-white: 0 0% 100%;
+  --primary-color: 268, 60%, 52%;
+  --secondary-color: 224, 27%, 45%;
+  --primary-font-color: 0, 100%, 100%;
+  --secondary-font-color: 0, 0%, 45%;
+  --hero-bg-color: 220, 23%, 5%;
+  --bg-color: 215, 21%, 11%;
+}
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
 }
-.sr-only {
-  visibility: hidden;
+
+.grid {
+  display: grid;
+  gap: var(--gap, 1rem);
 }
+.d-block {
+  display: block;
+}
+
+.container {
+  padding-inline: 2em;
+  margin-inline: auto;
+  max-width: 80rem;
+}
+
+/* Nav bar */
+
+
+.uppercase{
+  text-transform: uppercase;
+}
+
 /* Primary header */
 
 .primary-header {
+  top: 0;
+  position: sticky;
   align-content: center;
   justify-content: space-between;
+
 }
 .primary-header nav {
   align-self: center;
 }
+
 .mobile-nav-toggle {
   display: none;
 }
@@ -87,27 +86,27 @@ body {
   padding: 0;
   margin: 0;
 }
-@supports (backdrop-filter: blur(1rem)) {
-  .primary-navigation {
-    backdrop-filter: blur(1rem);
-  }
-}
+
+
 .primary-navigation a {
   text-decoration: none;
-  color: var(--clr-foreground);
+  color:hsl(var(--clr-foreground));
 }
-.underline-indicators > * {
+.underline-indicators > li {
   padding: var(--underline-gap, 2rem) 0;
-  border-bottom: .2rem solid hsl(var(--clr-foreground) / 0 );
 }
-.underline-indicators > *:hover,
-.underline-indicators > *:focus {
+.underline-indicators > li:hover,
+.underline-indicators > li:focus {
   padding: var(--underline-gap, 2rem) 0;
-  border-color: hsl(var(--clr-white) / .25 );
+  border-bottom: 0.2rem solid hsla(var(--clr-foreground) / .25)
 }
 .underline-indicators > .active{
   border-color: hsl(var(--clr-white) / 1 );
+  border-bottom: 0.2rem solid hsla(var(--clr-foreground))
 }
+
+
+
 @media (min-width: 35em) {
   .primary-navigation {
     --gap: clamp(1.5rem, 5vh, 3rem);
@@ -122,7 +121,6 @@ body {
 
 @media (max-width: 35em) {
   .primary-navigation {
-    --gap: 2em;
     position: fixed;
     z-index: 1000;
     inset: 0 0 0 30%;
@@ -130,6 +128,13 @@ body {
     padding: min(30vh, 10rem) 2em;
     transform: translateX(100%);
     transition: transform 350ms ease-out;
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+  }
+  @supports (backdrop-filter: blur(1rem)) {
+    .primary-navigation {
+      backdrop-filter: blur(1rem);
+    }
   }
 
   .primary-navigation[data-visible="true"] {
@@ -140,7 +145,6 @@ body {
     display: block;
     position: absolute;
     z-index: 9999;
-    background-image: url("../icons/menu.svg");
     background-color: transparent;
     width: 2em;
     background-repeat: no-repeat;
@@ -149,27 +153,30 @@ body {
     top: 2rem;
     right: 2rem;
   }
-
+  .mobile-nav-toggle svg{
+    fill: hsl(var(--clr-foreground));
+  }
+  
   .mobile-nav-toggle[aria-expanded="true"] {
-    background-image: url("../icons/menu_close.svg");
   }
 }
 
 
 /* theme switch css */
+
 #theme-toggle {
   cursor: pointer;
   background: 0;
   border: 0;
   opacity: 0.8;
-  padding: 0.5rem;
+  
   border-radius: 50%;
   position: relative;
   isolation: isolate;
 }
 
 #theme-toggle svg {
-  fill: var(--clr-foreground);
+  fill: hsl(var(--clr-foreground));
 }
 
 #theme-toggle::before {
@@ -182,7 +189,11 @@ body {
   opacity: 0;
   z-index: -1;
 }
-
+#theme-toggle:hover {
+  outline: 0;
+  opacity: 1;
+  background: hsla(0, 0%, 50%, 0.15);
+}
 .light-theme #theme-toggle::before {
   animation: pulseToLight 650ms ease-out;
 }
@@ -191,11 +202,7 @@ body {
   animation: pulseToDark 650ms ease-out;
 }
 
-#theme-toggle:hover {
-  outline: 0;
-  opacity: 1;
-  background: hsla(0, 0%, 50%, 0.15);
-}
+
 
 #theme-toggle:hover::after,
 #theme-toggle:focus-visible::after {
@@ -262,14 +269,19 @@ body {
 }
 
 /* hero section */
-.hero {
-  height: 100vh;
-  width: 100vw;
+.content{
+top: 0;
 }
 
 
-@media (min-width: 35em) {}
+@media (min-width: 35em) {
+  .toggle-switch {
+    margin: auto;
+  }
+}
 
 @media (min-width: 35em) and (max-width: 55em) {}
 
-@media (max-width: 35em) {}
+@media (max-width: 35em) {
+  
+}
