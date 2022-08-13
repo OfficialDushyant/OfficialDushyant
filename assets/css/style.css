@@ -25,7 +25,8 @@
   --hero-bg-color: 38, 22%, 90%;
   --bg-color: 31, 100%, 90%;
 
-  --font-color: 255 100% 0%; 
+  --font-color: 255 100% 0%;
+
 }
 
 .dark-theme {
@@ -86,6 +87,7 @@ body {
 /* Primary header */
 
 .primary-header {
+  --underline-gap: 1rem;
   top: 0;
   width: 100%;
   position: sticky;
