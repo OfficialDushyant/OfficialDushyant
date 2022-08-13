@@ -1,20 +1,18 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: sans-serif;
-  background-color: hsla(var(--bg-color), 1);
-  color: hsla(var(--primary-font-color), 1);
-  max-width: 90%;
-  margin: 0 auto;
-  font-size: calc(1rem + 0.25vh);
-  min-height: 100vh;
-}
 /* Theme presets */
+
+  /* 
+    --font-color can be used as setting colors for text, svg fill color or font icons.
+    
+    --accent-primary can be used as form element (button, checkbox, text box, etc.) border or background color.
+
+    --accent-secondary can be used to show interactivity like hover state, focus, or active / selected element.
+
+    --bg-color is for body background
+
+    --background-primary is to use for the background of specific element like prise picker
+
+    --background-secondary is to use for showing interactivity with elements using primary background
+  */
 
 .light-theme {
   --clr-foreground: 255 100% 0%;
@@ -25,7 +23,9 @@ body {
   --primary-font-color: 214, 11%, 12%;
   --secondary-font-color: 0, 0%, 45%;
   --hero-bg-color: 38, 22%, 90%;
-  --bg-color: 0, 40%, 96%;
+  --bg-color: 31, 100%, 90%;
+
+  --font-color: 255 100% 0%; 
 }
 
 .dark-theme {
@@ -39,6 +39,24 @@ body {
   --hero-bg-color: 220, 23%, 5%;
   --bg-color: 215, 21%, 11%;
 }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: sans-serif;
+  background-color: hsla(var(--bg-color), 1);
+  color: hsla(var(--primary-font-color), 1);
+  font-size: calc(1rem + 0.25vh);
+  min-height: 100vh;
+
+}
+/* utility Class */
 .flex {
   display: flex;
   gap: var(--gap, 1rem);
@@ -57,22 +75,25 @@ body {
   margin-inline: auto;
   max-width: 80rem;
 }
-
-/* Nav bar */
-
-
 .uppercase{
   text-transform: uppercase;
 }
+/* Nav bar */
+
+
+
 
 /* Primary header */
 
 .primary-header {
   top: 0;
+  width: 100%;
   position: sticky;
   align-content: center;
   justify-content: space-between;
-
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
 }
 .primary-header nav {
   align-self: center;
@@ -86,7 +107,10 @@ body {
   padding: 0;
   margin: 0;
 }
+.primary-header-scrolled {
+  background-color: hsla(var(--clr-background));
 
+}
 
 .primary-navigation a {
   text-decoration: none;
@@ -121,6 +145,7 @@ body {
 
 @media (max-width: 35em) {
   .primary-navigation {
+    --underline-gap: 1rem;
     position: fixed;
     z-index: 1000;
     inset: 0 0 0 30%;
@@ -128,7 +153,7 @@ body {
     padding: min(30vh, 10rem) 2em;
     transform: translateX(100%);
     transition: transform 350ms ease-out;
-    background: hsl(0 0% 100% / 0.1);
+    background: hsla(var(--clr-background), 0.1);
     backdrop-filter: blur(1rem);
   }
   @supports (backdrop-filter: blur(1rem)) {
@@ -156,9 +181,6 @@ body {
   .mobile-nav-toggle svg{
     fill: hsl(var(--clr-foreground));
   }
-  
-  .mobile-nav-toggle[aria-expanded="true"] {
-  }
 }
 
 
@@ -169,7 +191,6 @@ body {
   background: 0;
   border: 0;
   opacity: 0.8;
-  
   border-radius: 50%;
   position: relative;
   isolation: isolate;
@@ -270,7 +291,8 @@ body {
 
 /* hero section */
 .content{
-top: 0;
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 
