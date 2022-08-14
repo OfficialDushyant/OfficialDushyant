@@ -49,16 +49,27 @@ navToggle.addEventListener("click", () => {
 });
 
 // Navbar style on scroll 
-document.onreadystatechange = () => {
-  let lastScrollPosition = 0;
-  const navbar =  document.querySelector(".primary-header");
+let scrollPosition = localStorage.getItem('scroll-position');
 
-  window.addEventListener('scroll', function(e) {
-    lastScrollPosition = window.scrollY;
-    
-    if (lastScrollPosition > 50)
-      navbar.classList.add('primary-header-scrolled');
-    else
-      navbar.classList.remove('primary-header-scrolled');
-  });
+document.addEventListener("DOMContentLoaded", (e) => {
+  if (scrollPosition > 0) 
+    window.scrollTo(0, scrollPosition);
+});
+window.addEventListener('scroll', function(e) {
+  scrollPosition = window.scrollY;
+  setHeaderClass();
+});
+document.onreadystatechange = () => {
+  setHeaderClass()
+}
+window.onbeforeunload = (e) => {
+  localStorage.setItem('scroll-position', window.scrollY);
+};
+
+const setHeaderClass = () => {
+  const navbar =  document.querySelector(".primary-header");
+  if (scrollPosition > 0)
+    navbar.classList.add('primary-header-scrolled');
+  else
+    navbar.classList.remove('primary-header-scrolled');
 }
