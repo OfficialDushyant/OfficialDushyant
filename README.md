@@ -254,8 +254,8 @@ PHP                      1 repo              █░░░░░░░░░░�
   <a href="https://tailwindcss.com/" target="_blank">
   <img  align="left" alt="tailwind css" width="30px" class="skills" style="padding:5px" src="/assets/icons/tailwind_css.svg"/></a>
   <!-- GO -->
-  <a href="https://go.dev/" target="_blank">
-  <img  align="left" alt="GO Golang" width="30px" class="skills" style="padding:5px" src="/assets/icons/go.svg"/></a>
+   <!-- <a href="https://go.dev/" target="_blank">
+  <img  align="left" alt="GO Golang" width="30px" class="skills" style="padding:5px" src="/assets/icons/go.svg"/></a> -->
   <!-- TypeScript  -->
   <a href="https://www.typescriptlang.org/" target="_blank">
   <img  align="left" alt="TypeScript" width="30px" class="skills" style="padding:5px" src="/assets/icons/typescript.svg"/></a>
