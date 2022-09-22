@@ -341,8 +341,8 @@ PHP                      1 repo              █░░░░░░░░░░�
   </a>
 
   <!-- Email -->
-  <a target="_blank" href="mailto:dushyant@devtipsmedia.com" style="padding:5px">
-  <img src="https://img.shields.io/badge/Email-dushyant@devtipsmedia.com-ededed?style=flat-square&logo=maildotru&labelColor=252525">
+  <a target="_blank" href="mailto:hello@bydushyant.com" style="padding:5px">
+  <img src="https://img.shields.io/badge/Email-hello@bydushyant.com-ededed?style=flat-square&logo=maildotru&labelColor=252525">
   </a>
 
   <!-- Discussion -->
