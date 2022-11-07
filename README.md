@@ -23,30 +23,30 @@ console.log(me.greet());
  
   <p align="center">
       </a>
-      <a target="_blank" href="https://devtips-streak-stats.herokuapp.com?user=dushyantDevTips&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0A0C10&stroke=7E3ACD&fire=7E3ACD&ring=7E3ACD&currStreakLabel=7E3ACD">
+      <a target="_blank" href="https://devtips-streak-stats.herokuapp.com?user=OfficialDushyant&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0A0C10&stroke=7E3ACD&fire=7E3ACD&ring=7E3ACD&currStreakLabel=7E3ACD">
       <img
           width="750em"
-          src="https://devtips-streak-stats.herokuapp.com?user=dushyantDevTips&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0A0C10&stroke=7E3ACD&fire=7E3ACD&ring=7E3ACD&currStreakLabel=7E3ACD"
+          src="https://devtips-streak-stats.herokuapp.com?user=OfficialDushyant&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0A0C10&stroke=7E3ACD&fire=7E3ACD&ring=7E3ACD&currStreakLabel=7E3ACD"
       />
     </a>
     <br/>
-    <a target="_blank" href="https://github-readme-stats-9bmn5a2cv-devtipsmedia.vercel.app/api/top-langs/?layout=compact&include_all_commits=true&count_private=true&username=dushyantDevTips&icon_color=7E3ACD&text_color=FFFFFF&hide=html&bg_color=0A0C10&hide_border=true&title_color=7E3ACD&custom_title=Profile%20Stats&show_icons=true">
+    <a target="_blank" href="https://github-readme-stats-9bmn5a2cv-devtipsmedia.vercel.app/api/top-langs/?layout=compact&include_all_commits=true&count_private=true&username=OfficialDushyant&icon_color=7E3ACD&text_color=FFFFFF&hide=html&bg_color=0A0C10&hide_border=true&title_color=7E3ACD&custom_title=Profile%20Stats&show_icons=true">
       <img
         id=""
         height="160em"
-        src="https://github-readme-stats-9bmn5a2cv-devtipsmedia.vercel.app/api/top-langs/?layout=compact&include_all_commits=true&count_private=true&username=dushyantDevTips&icon_color=7E3ACD&text_color=FFFFFF&hide=html&bg_color=0A0C10&hide_border=true&title_color=7E3ACD&custom_title=Profile%20Stats&show_icons=true"
+        src="https://github-readme-stats-9bmn5a2cv-devtipsmedia.vercel.app/api/top-langs/?layout=compact&include_all_commits=true&count_private=true&username=OfficialDushyant&icon_color=7E3ACD&text_color=FFFFFF&hide=html&bg_color=0A0C10&hide_border=true&title_color=7E3ACD&custom_title=Profile%20Stats&show_icons=true"
         />
     </a>
-    <a target="_blank" href="https://github-readme-stats-9bmn5a2cv-devtipsmedia.vercel.app/api?username=dushyantDevTips&show_icons=true&include_all_commits=true&custom_title=Profile%20Stats&count_private=true&bg_color=0A0C10&hide_border=true&title_color=7E3ACD&icon_color=7E3ACD&text_color=FFFFFF">
+    <a target="_blank" href="https://github-readme-stats-9bmn5a2cv-devtipsmedia.vercel.app/api?username=OfficialDushyant&show_icons=true&include_all_commits=true&custom_title=Profile%20Stats&count_private=true&bg_color=0A0C10&hide_border=true&title_color=7E3ACD&icon_color=7E3ACD&text_color=FFFFFF">
       <img
           height="160em"
-          src="https://github-readme-stats-9bmn5a2cv-devtipsmedia.vercel.app/api?username=dushyantDevTips&show_icons=true&include_all_commits=true&custom_title=Profile%20Stats&count_private=true&bg_color=0A0C10&hide_border=true&title_color=7E3ACD&icon_color=7E3ACD&text_color=FFFFFF"
+          src="https://github-readme-stats-9bmn5a2cv-devtipsmedia.vercel.app/api?username=OfficialDushyant&show_icons=true&include_all_commits=true&custom_title=Profile%20Stats&count_private=true&bg_color=0A0C10&hide_border=true&title_color=7E3ACD&icon_color=7E3ACD&text_color=FFFFFF"
       />
     <br/>
-    <a target="_blank" href="https://devtips-activity-graph.herokuapp.com/graph?username=dushyantDevTips&custom_title=Contributions%20for%20last%2031%20days&hide_border=true&area=true&line=7E3ACD&point=FFFFFF&area_color=FFFFFF&bg_color=0A0C10&color=7E3ACD">
+    <a target="_blank" href="https://devtips-activity-graph.herokuapp.com/graph?username=OfficialDushyant&custom_title=Contributions%20for%20last%2031%20days&hide_border=true&area=true&line=7E3ACD&point=FFFFFF&area_color=FFFFFF&bg_color=0A0C10&color=7E3ACD">
       <img
           width="750em"
-          src="https://devtips-activity-graph.herokuapp.com/graph?username=dushyantDevTips&custom_title=Contributions%20for%20last%2031%20days&hide_border=true&area=true&line=7E3ACD&point=FFFFFF&area_color=FFFFFF&bg_color=0A0C10&color=7E3ACD"
+          src="https://devtips-activity-graph.herokuapp.com/graph?username=OfficialDushyant&custom_title=Contributions%20for%20last%2031%20days&hide_border=true&area=true&line=7E3ACD&point=FFFFFF&area_color=FFFFFF&bg_color=0A0C10&color=7E3ACD"
       />
     </a> 
    
@@ -326,18 +326,18 @@ PHP                      2 repos             █░░░░░░░░░░�
 
 <h4 align="center"> Best way to get in touch.</h4>
 
-  <a target="_blank" href="https://www.linkedin.com/in/dushyantdevtips/" style="padding:5px">
+  <a target="_blank" href="https://www.linkedin.com/in/099officialdushyant/" style="padding:5px">
   <img src="https://img.shields.io/badge/LinkedIn-DushyantDevTips-ededed?style=flat-square&logo=linkedin&labelColor=0A66C2">
   </a>
 
   <!-- Twitter -->
-  <a target="_blank" href="https://twitter.com/dushyantDevTips" style="padding:5px">
+  <a target="_blank" href="https://twitter.com/DevDushyant99" style="padding:5px">
   <img src="https://img.shields.io/badge/Twitter-@dushyantDevTips-ededed?style=flat-square&logo=twitter&labelColor=252525">
   </a>
 
   <!-- Discord -->
   <a target="_blank" href="https://discordapp.com/users/655147188254408733" style="padding:5px">
-  <img src="https://img.shields.io/badge/Discord-DushyantDevTips-ededed?style=flat-square&logo=discord&labelColor=fff">
+  <img src="https://img.shields.io/badge/Discord-OfficialDushyant-ededed?style=flat-square&logo=discord&labelColor=fff">
   </a>
 
   <!-- Email -->
@@ -346,7 +346,7 @@ PHP                      2 repos             █░░░░░░░░░░�
   </a>
 
   <!-- Discussion -->
-  <a href="https://github.com/dushyantDevTips/dushyantDevTips/discussions" style="padding:5px">
+  <a href="https://github.com/OfficialDushyant/dushyantDevTips/discussions" style="padding:5px">
   <img src="https://img.shields.io/badge/Discussion-Drop%20by%20for%20a%20quick%20Discussion-ededed?style=flat-square&logo=GitHub&labelColor=252525">
   </a>
 
