@@ -22,14 +22,6 @@ console.log(me.greet());
   <h4 align="center">My Github Stats</h4>
  
   <p align="center">
-      </a>
-      <a target="_blank" href="https://devtips-streak-stats.herokuapp.com?user=OfficialDushyant&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0A0C10&stroke=7E3ACD&fire=7E3ACD&ring=7E3ACD&currStreakLabel=7E3ACD">
-      <img
-          width="750em"
-          src="https://devtips-streak-stats.herokuapp.com?user=OfficialDushyant&theme=highcontrast&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&background=0A0C10&stroke=7E3ACD&fire=7E3ACD&ring=7E3ACD&currStreakLabel=7E3ACD"
-      />
-    </a>
-    <br/>
     <a target="_blank" href="https://github-readme-stats-9bmn5a2cv-devtipsmedia.vercel.app/api/top-langs/?layout=compact&include_all_commits=true&count_private=true&username=OfficialDushyant&icon_color=7E3ACD&text_color=FFFFFF&hide=html&bg_color=0A0C10&hide_border=true&title_color=7E3ACD&custom_title=Profile%20Stats&show_icons=true">
       <img
         id=""
@@ -43,14 +35,6 @@ console.log(me.greet());
           src="https://github-readme-stats-9bmn5a2cv-devtipsmedia.vercel.app/api?username=OfficialDushyant&show_icons=true&include_all_commits=true&custom_title=Profile%20Stats&count_private=true&bg_color=0A0C10&hide_border=true&title_color=7E3ACD&icon_color=7E3ACD&text_color=FFFFFF"
       />
     <br/>
-    <a target="_blank" href="https://devtips-activity-graph.herokuapp.com/graph?username=OfficialDushyant&custom_title=Contributions%20for%20last%2031%20days&hide_border=true&area=true&line=7E3ACD&point=FFFFFF&area_color=FFFFFF&bg_color=0A0C10&color=7E3ACD">
-      <img
-          width="750em"
-          src="https://devtips-activity-graph.herokuapp.com/graph?username=OfficialDushyant&custom_title=Contributions%20for%20last%2031%20days&hide_border=true&area=true&line=7E3ACD&point=FFFFFF&area_color=FFFFFF&bg_color=0A0C10&color=7E3ACD"
-      />
-    </a> 
-   
-    
   </p>
   <br/>
   <br/>
