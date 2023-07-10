@@ -74,13 +74,13 @@ Sunday       36 commits     ███░░░░░░░░░░░░░░�
 ⌚︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+sh                       17 mins             █████████████████████████   100.0%
 
 🔥 Editors: 
-No Activity Tracked This Week
+Zsh                      17 mins             █████████████████████████   100.0%
 
 💻 Operating System: 
-No Activity Tracked This Week
+Mac                      17 mins             █████████████████████████   100.0%
 
 ```
 
@@ -97,7 +97,7 @@ PHP                      2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 09/07/2023 01:42:39 UTC 
+ Last Updated on 10/07/2023 01:27:11 UTC 
 
 <!--END_SECTION:waka-->
 
