@@ -2,7 +2,6 @@
 
 ```javascript
 const DUSHYANT = {
-  pronouns: () => "He" | "Him",
   role: () => "Full-stack Developer",
   language_spoken: () => ["en-US, hi-IN", "gu-IN"],
   interested_about: () => [
