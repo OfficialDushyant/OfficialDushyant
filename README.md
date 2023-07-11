@@ -249,7 +249,7 @@ PHP                      2 repos             █░░░░░░░░░░�
 
 ---
 
-<h4 align="center">Software I use for development.</h4>
+<h4 align="center">Tools I use for development.</h4>
 <!-- Pop_os -->
 <a href="https://pop.system76.com/" target="_blank">
 <img  align="left" alt="Pop os" style="padding:5px" width="30px" class="tools"  src="/assets/icons/pop_os.svg"/></a>
