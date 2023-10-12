@@ -11,7 +11,7 @@ jobs:
     name: Update WakaTime Status data
     runs-on: ubuntu-latest
     steps:
-      - uses: dushyantDevTips/waka-readme-stats-1@resolve-spacing
+      - uses: dushyantDevTips/waka-readme-stats-1@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
