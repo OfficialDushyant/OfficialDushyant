@@ -159,6 +159,9 @@ PHP                      2 repos             █░░░░░░░░░░�
         <!-- Webpack -->
         <a href="https://webpack.js.org/" target="_blank">
         <img align="center" alt="Webpack" width="30px" class="skills" style="padding:5px" src="/assets/icons/webpack.svg"/></a>
+        <!--vite-->
+        <a href="https://vitejs.dev/" target="_blank">
+        <img align="center" alt="Webpack" width="30px" class="skills" style="padding:5px" src="/assets/icons/vite-svgrepo-com.svg"/></a>
     </td>
     <!-- Back-end -->
     <td>
