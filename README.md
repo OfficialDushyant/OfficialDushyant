@@ -135,9 +135,15 @@ PHP                      2 repos             █░░░░░░░░░░�
         <!-- Js -->
         <a href="https://www.javascript.com/" target="_blank">
         <img align="left" alt="Javascript" width="30px" class="skills" style="padding:5px" src="/assets/icons/js.svg"/></a>
+       <!-- TypeScript  -->
+        <a href="https://www.typescriptlang.org/" target="_blank">
+        <img  align="left" alt="TypeScript" width="30px" class="skills" style="padding:5px" src="/assets/icons/typescript.svg"/></a>
         <!-- sass -->
         <a href="https://sass-lang.com/" target="_blank">
         <img align="left" alt="sass" width="30px" class="skills" style="padding:5px" src="/assets/icons/sass.svg"/></a>
+        <!-- tailwind css  -->
+        <a href="https://tailwindcss.com/" target="_blank">
+        <img  align="left" alt="tailwind css" width="30px" class="skills" style="padding:5px" src="/assets/icons/tailwind_css.svg"/></a>
         <!-- Bootstrap  -->
         <a href="https://getbootstrap.com/" target="_blank">
         <img align="left" alt="Bootstrap" width="30px" class="skills" style="padding:5px" src="/assets/icons/bootstrap.svg"/></a>
@@ -150,9 +156,6 @@ PHP                      2 repos             █░░░░░░░░░░�
         <!-- vue Js -->
         <a href="https://vuejs.org/" target="_blank">
         <img align="left" alt="VueJs" width="30px" class="skills" style="padding:5px" src="/assets/icons/vue.svg"/></a>
-        <!--vuetify -->
-        <a href="https://vuetifyjs.com/en/" target="_blank">
-        <img align="left" alt="Vuetify" width="30px" class="skills" style="padding:5px" src="/assets/icons/vuetify.svg"/></a>
         <!-- Webpack -->
         <a href="https://webpack.js.org/" target="_blank">
         <img align="center" alt="Webpack" width="30px" class="skills" style="padding:5px" src="/assets/icons/webpack.svg"/></a>
@@ -227,15 +230,10 @@ PHP                      2 repos             █░░░░░░░░░░�
 ---
 
 <h4 align="center">Tech I'm learning.</h4>
-  <!-- tailwind css  -->
-  <a href="https://tailwindcss.com/" target="_blank">
-  <img  align="left" alt="tailwind css" width="30px" class="skills" style="padding:5px" src="/assets/icons/tailwind_css.svg"/></a>
   <!-- GO -->
-   <!-- <a href="https://go.dev/" target="_blank">
-  <img  align="left" alt="GO Golang" width="30px" class="skills" style="padding:5px" src="/assets/icons/go.svg"/></a> -->
-  <!-- TypeScript  -->
-  <a href="https://www.typescriptlang.org/" target="_blank">
-  <img  align="left" alt="TypeScript" width="30px" class="skills" style="padding:5px" src="/assets/icons/typescript.svg"/></a>
+   <a href="https://go.dev/" target="_blank">
+  <img  align="left" alt="GO Golang" width="30px" class="skills" style="padding:5px" src="/assets/icons/go.svg"/></a>
+
   <!-- Jenkins -->
   <!-- <a href="https://www.jenkins.io/" target="_blank">
   <img  align="left" alt="Gitlab" width="30px" class="skills" style="padding:5px"  src="/assets/icons/jenkins.svg"/></a> -->
